@@ -13,7 +13,6 @@ function Store({ name, address, tel }) {
 
 function Showstore() {
   const [first, select] = useState("Tohoku");
-  const regionOptions = Object.keys(data.regions);
   const stores = data.regions[first];
   return (
     <>
